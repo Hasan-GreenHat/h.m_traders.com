@@ -274,3 +274,67 @@ header a{
     font-size: 28px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+
+@media only screen and (max-width: 650px) {
+
+    .buttons #i1 {
+        margin-left: 5cm;
+        display: inline;
+        position: absolute;
+        background-color: transparent;
+        color: black;
+        margin-top: 25px;
+        cursor: pointer;
+        font-size: 30px;
+        border: solid 1px rgb(0, 0, 0);
+        padding: 5px;
+        border-radius: 20px;
+    }
+
+    .buyh img {
+        margin-left: 20%;
+    }
+
+    .newop form{
+        margin-left: 25%;
+        display: inline;
+    }
+
+    .newop h2{
+        text-align: center;
+        font-size: 25px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+}
+
+@media only screen and (max-width: 500px){
+
+    .newop form{
+        margin-left: 10%;
+        display: inline;
+    }
+}
+
+@media only screen and (max-width: 390px){
+
+    .buyh img {
+        margin-left: 10%;
+    }
+
+    .newop form{
+        margin-left: 5%;
+        display: inline;
+    }
+}
+
+@media only screen and (max-width: 350px){
+
+    .buyh img {
+        margin-left: 5%;
+    }
+    .newop form{
+        
+        display: inline;
+    }
+}
