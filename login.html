@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Our Product</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>H.M Traders</h1>
+           <class class="active"> <a href="index.html">Home</a></class>
+            <a href="contact.html">Contact Us</a>
+            <a href="buy.html">Buy</a>
+        </nav>
+    </header>
+ 
+<div class="login">
+    <form onsubmit="data()">
+        ID:       <input type="text" id="n1" required> <br><br>
+        Password: <input type="password" id="n2" required> <br><br>
+        <input type="submit">
+    </form>
+</div>
+
+
+<script>
+
+function data(){
+var a= document.getElementById("n1").value;
+var b= document.getElementById("n2").value;
+
+if(a!="h.m.traders"){
+    alert("Login Failed ❌");
+    return false ;
+}else if(b!="hasanANDmustaqeem1826"){
+    alert("Login Failed ❌");
+    return false ;
+}else{
+    true;
+    window.open("owner.html");
+    postMessage("Login Sucessful")
+}
+    }
+</script>
+
+
+</body>
+</html>

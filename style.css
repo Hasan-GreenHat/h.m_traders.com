@@ -276,6 +276,32 @@ header a{
 }
 
 
+/* OWNER PAGE  */
+
+.ownh {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+
+.ownh a{
+    padding: 40px;
+    text-decoration: none;
+    color: #111;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.ownh #opage{
+    background-color: rgb(203, 210, 218);
+    border-radius: 20px;
+}
+
+.ownh2 fieldset{
+    background-color:  rgb(203, 210, 218);  
+    margin-top: -45px;
+    border: none;
+}
+
 @media only screen and (max-width: 650px) {
 
     .buttons #i1 {
