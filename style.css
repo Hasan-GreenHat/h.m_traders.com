@@ -302,6 +302,17 @@ header a{
     border: none;
 }
 
+.login fieldset{
+    display: inline;
+    margin-left: 38%;
+    margin-top: 80px;
+    border-radius: 20px;
+    background-color: rgb(236, 240, 247);
+    border: 1px solid rgb(0, 255, 234);
+}
+
+
+
 @media only screen and (max-width: 650px) {
 
     .buttons #i1 {
@@ -332,6 +343,18 @@ header a{
         font-size: 25px;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
+
+    .login fieldset{
+        margin-left: 20%;
+    }
+
+    .ownh {
+        padding: 0px;
+    }
+
+    .ownh a {
+        padding: 30px;
+    }
 }
 
 @media only screen and (max-width: 500px){
@@ -339,6 +362,14 @@ header a{
     .newop form{
         margin-left: 10%;
         display: inline;
+    }
+
+    .ownh {
+        padding: 0px;
+    }
+
+    .ownh a {
+        padding: 20px;
     }
 }
 
@@ -352,6 +383,22 @@ header a{
         margin-left: 5%;
         display: inline;
     }
+
+    .login fieldset{
+        margin-left: 10%;
+    }
+
+    .ownh {
+        padding: 0px;
+    }
+
+    .ownh a {
+        padding: 0px;
+    }
+
+    .ownh2 fieldset {
+        margin-top: -13px;
+    }
 }
 
 @media only screen and (max-width: 350px){
@@ -362,5 +409,9 @@ header a{
     .newop form{
         
         display: inline;
+    }
+
+    .login fieldset{
+        margin-left: 0%;
     }
 }
