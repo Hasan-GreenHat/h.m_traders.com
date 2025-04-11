@@ -386,7 +386,14 @@ header a{
 
     .ownh a {
         padding: 20px;
+        font-size: 10px;
     }
+
+    .ownh2 fieldset {
+        margin-top: -15px;
+    }
+
+    
 }
 
 @media only screen and (max-width: 390px){
@@ -410,10 +417,11 @@ header a{
 
     .ownh a {
         padding: 0px;
+        font-size: 10px;
     }
 
     .ownh2 fieldset {
-        margin-top: -13px;
+        margin-top: -5px;
     }
 }
 
